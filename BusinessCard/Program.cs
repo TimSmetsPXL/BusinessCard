@@ -4,7 +4,9 @@
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello, World!");
+            Console.ForegroundColor = ConsoleColor.Cyan;
+            Console.WriteLine("Tim Smets");
+            Console.ResetColor();
         }
     }
 }
